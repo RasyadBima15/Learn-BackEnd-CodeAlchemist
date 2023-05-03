@@ -1,0 +1,7 @@
+untuk membuat package.json ketik npm init --y di cmd/terminal (pastikan sudah cocok dengan direktori proyek)
+lalu install typescript => ketik npm install typescript
+kemudian konfigurasi typescript dengan mengetik npx tsc --init
+npx mencakup hanya di proyek yang kita jalankan saja (tidak mencakup secara global di lokal koputer kita)
+
+ketika mau menjalankan kode typescript, kita harus compile typescript menjadi javascript terlebih dahulu dengan mengetik npx tsc <namafile>.ts
+lalu jalankan kode nya dengan mengetik node <namafile>.js
