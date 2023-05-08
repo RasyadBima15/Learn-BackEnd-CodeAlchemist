@@ -5,3 +5,6 @@ npx mencakup hanya di proyek yang kita jalankan saja (tidak mencakup secara glob
 
 ketika mau menjalankan kode typescript, kita harus compile typescript menjadi javascript terlebih dahulu dengan mengetik npx tsc <namafile>.ts
 lalu jalankan kode nya dengan mengetik node <namafile>.js
+
+tanpa meng compile lagi.., install npm install ts-node di terminal
+lalu jalankan dengan mengetik npx ts-node <namafile>.ts
